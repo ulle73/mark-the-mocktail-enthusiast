@@ -12,6 +12,13 @@ function App() {
   );
   const [activeFilter, setActiveFilter] = useState(() => (drink) => drink); //returns a 1 to 1 function
 
+
+const blabla = "blalbalbalbal"
+
+const commit2 = "commit 2, blabla"
+
+const commit3 = "lorem blablalba"
+
   useEffect(() => {
     const fetchData = async () => {
       const response = await fetch(
@@ -24,7 +31,7 @@ function App() {
   }, []);
   return (
     <div className={styles["container"]}>
-      <h1 className={styles["header"]}>Mark's To-drink List</h1>
+      <h1 className={styles["header"]}>Mark&apos;s To-drink List</h1>
       <Searchbar mocktails={mocktails} dispatch={todoListDispatch} />
       <Filter filter={activeFilter} updateFilter={setActiveFilter} />
       <TodoList
