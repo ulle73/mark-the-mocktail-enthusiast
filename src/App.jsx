@@ -12,6 +12,13 @@ function App() {
   );
   const [activeFilter, setActiveFilter] = useState(() => (drink) => drink); //returns a 1 to 1 function
 
+
+const blabla = "blalbalbalbal"
+
+const commit2 = "commit 2, blabla"
+
+const commit3 = "lorem blablalba"
+
   useEffect(() => {
     const fetchData = async () => {
       const response = await fetch(
