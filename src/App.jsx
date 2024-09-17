@@ -25,6 +25,7 @@ const master = "saker läggs till åp mastergrenen"
 const nyCommitAnnanBranch = "ny commit"
 
 const anotherMaster = "mastermaster"
+const nyTestRevase = "nytest"
 
   useEffect(() => {
     const fetchData = async () => {
