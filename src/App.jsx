@@ -22,6 +22,7 @@ const commit3 = "lorem blablalba"
 
 
 const master = "saker läggs till åp mastergrenen"
+const nyCommitAnnanBranch = "ny commit"
 
 const anotherMaster = "mastermaster"
 
