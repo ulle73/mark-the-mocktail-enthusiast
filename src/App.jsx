@@ -19,6 +19,10 @@ const commit2 = "commit 2, blabla"
 
 const commit3 = "lorem blablalba"
 
+
+
+const master = "saker läggs till åp mastergrenen"
+
   useEffect(() => {
     const fetchData = async () => {
       const response = await fetch(
