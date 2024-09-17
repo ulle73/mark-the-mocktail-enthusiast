@@ -23,6 +23,8 @@ const commit3 = "lorem blablalba"
 
 const master = "saker läggs till åp mastergrenen"
 
+const anotherMaster = "mastermaster"
+
   useEffect(() => {
     const fetchData = async () => {
       const response = await fetch(
